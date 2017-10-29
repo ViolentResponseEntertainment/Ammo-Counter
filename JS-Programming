@@ -1,0 +1,21 @@
+// This should drop the ammo count till it hits zero
+let ammoCount = 30;
+for (i = 30; ammoCount > 0 && ammoCount < 31; i--) {
+  console.log(ammoCount)
+}
+
+// These next 3 functions will be used for a reload button for 5.56 round
+function resetCount {
+  let ammoCount = 30;
+  let round = '5.56';
+}
+
+function resetMiniMag {
+  let ammoCount = 10;
+  let round = '5.56';
+}
+
+function resetBigBoy {
+  let ammoCount = 100;
+  let round = '5.56';
+}

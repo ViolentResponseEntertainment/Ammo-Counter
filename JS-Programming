@@ -35,3 +35,35 @@ function resetBigBoy762 {
   let ammoCount = 100;
   let round = '7.62';
 }
+
+// 9mm
+function resetCountNine {
+  let ammoCount = 30;
+  let round = '9mm';
+}
+
+function resetMiniMagNine {
+  let ammoCount = 10;
+  let round = '9mm';
+}
+
+function resetBigBoyNine {
+  let ammoCount = 100;
+  let round = '9mm';
+}
+
+//.223
+function resetCount223 {
+  let ammoCount = 30;
+  let round = '223';
+}
+
+function resetMiniMag223 {
+  let ammoCount = 10;
+  let round = '223';
+}
+
+function resetBigBoy223 {
+  let ammoCount = 100;
+  let round = '223';
+}

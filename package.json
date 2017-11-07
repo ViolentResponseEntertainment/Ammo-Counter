@@ -1,0 +1,22 @@
+{
+  "name": "ammo-counter",
+  "version": "1.0.0",
+  "description": "This is going to be the Real Steel Ammo Counter program and test GUI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpartanO57/Ammo-Counter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpartanO57/Ammo-Counter/issues"
+  },
+  "homepage": "https://github.com/SpartanO57/Ammo-Counter#readme",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}

@@ -1,7 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head></head>
-<body>
-  
+<head>
+  <!-- Libraries -->
+  <script src="/libs/angular.min.js"></script>
+  <script src="/libs/lodash.min.js"></script>
+  <!-- Scripts -->
+  <script src="/src/app.js"></script>
+  <script src="/src/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/css/bootstrap.min.js" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body ng-app="ammo-counter">
+  <div class="container">
+    <div class="row">
+      <div class="column"></div>
+      <div class="column">brush</div>
+    </div>
+    <div class="row">
+      <div class="column"></div>
+      <div class="column">9mm</div>
+    </div>
+    <div class="row">
+      <div class="column"></div>
+      <div class="column">762</div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="cta">Fire</div>
+        <div class="cta">Reload (30)</div>
+        <div class="cta">Reload (10)</div>
+        <div class="cta">Reload (100)</div>
+      </div>
+      <div class="column">556</div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="container">
+          <div class="row">Round</div>
+          <div class="row">5.56 Nato</div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <div class="row">USER</div>
+          <div class="row">SNPerez</div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <div class="row">Ammo</div>
+          <div class="row">X</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <p>Click Fire Should bring ammo down by 1.</p>
+    <p>Round should change to reflect the variable 'round'</p>
+    <p>Would like to have user log own name in USER area</p>
+  </div>
 </body>
 </html>

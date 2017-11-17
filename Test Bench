@@ -27,21 +27,21 @@ table, th, td {
       <th>Reload High Capacity Mag
     </tr>
     <tr>
-      <td>test</td>
-      <td>test</td>
-      <td>test</td>
-      <td>test</td>
+      <td><button type="button">Fire</button></td>
+      <td><button type="button">Reload 5.56 (10)</button></td>
+      <td><button type="button">Reload 5.56 (30)</button></td>
+      <td><button type="button">Reload 5.56 (100)</button></td>
     </tr>
     <tr>
-      <td>test</td>
-      <td>test</td>
-      <td>test</td>
-      <td>Test</td>
+      <td><button type="button">Fire</button></td>
+      <td><button type="button">Reload 7.62 (20)</button></td>
+      <td><button type="button">Reload 7.62 (30)</button></td>
+      <td><button type="button">Reload 7.62 (230)</button></td>
     </tr>
     <tr>
-      <td>test</td>
-      <td>test</td>
-      <td>test</td>
-      <td>test</td>
+      <td><button type="button">Fire</button></td>
+      <td><button type="button">Reload 9mm (5)</button></td>
+      <td><button type="button">Reload 9mm (12)</button></td>
+      <td><button type="button">Reload 9mm (52)</button></td>
     </tr>
   </table>

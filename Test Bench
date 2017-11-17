@@ -1,0 +1,47 @@
+<DOCTYPE html>
+<html>
+<title>The Test Bench</title>
+<header>
+<style>
+h1 {
+  text-align: center;
+  background-color: red;
+  font-size: 30px;
+  border-radius: 30%;
+  border-width: 20px 5px 20px 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+</header>
+<head>
+<h1>Test Bench</h1>
+<div>
+  <table style="width: 100%; text-align: center">
+    <tr>
+      <th>Fire</th>
+      <th>Reload Low Capacity Mag</th>
+      <th>Reload Standard Mag</th>
+      <th>Reload High Capacity Mag
+    </tr>
+    <tr>
+      <td>test</td>
+      <td>test</td>
+      <td>test</td>
+      <td>test</td>
+    </tr>
+    <tr>
+      <td>test</td>
+      <td>test</td>
+      <td>test</td>
+      <td>Test</td>
+    </tr>
+    <tr>
+      <td>test</td>
+      <td>test</td>
+      <td>test</td>
+      <td>test</td>
+    </tr>
+  </table>

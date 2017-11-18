@@ -1,9 +1,10 @@
 // This should drop the ammo count till it hits zero
+function fire {
 let ammoCount = 30;
 for (i = 30; ammoCount > 0 && ammoCount < 31; i--) {
   console.log(ammoCount)
 }
-
+}
 // These next 3 functions will be used for a reload button for 5.56 round
 function resetCount556 {
   let ammoCount = 30;

@@ -49,16 +49,19 @@ document.write(Date());
       </tr>
      </table>
 </div>
+<br>
     <div>
-      <table> 
+      <table style="width: 100%; text-align: center">
         <tr>
           <th>Round</th>
           <th>User</th>
           <th>Remaining</th>
         </tr>
-        <tr>Coming Soon</tr>
-        <tr>Coming Soon</tr>
-        <tr>Coming Soon</tr>
+        <tr>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+      </tr>
       </table>
     </div>
   </table>

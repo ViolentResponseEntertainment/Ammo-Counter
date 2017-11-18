@@ -58,7 +58,7 @@ document.write(Date());
           <th>Remaining</th>
         </tr>
         <tr>
-        <td>Coming Soon</td>
+        <td><script type="text/javascript">doument.write(Date());</script></td>
         <td>Coming Soon</td>
         <td>Coming Soon</td>
       </tr>

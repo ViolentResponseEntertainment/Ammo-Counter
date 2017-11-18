@@ -20,28 +20,42 @@ table, th, td {
 <h1>Test Bench</h1>
 <div>
   <table style="width: 100%; text-align: center">
-    <tr>
-      <th>Fire</th>
-      <th>Reload Low Capacity Mag</th>
-      <th>Reload Standard Mag</th>
-      <th>Reload High Capacity Mag
-    </tr>
-    <tr>
-      <td><button type="button">Fire</button></td>
-      <td><button type="button">Reload 5.56 (10)</button></td>
-      <td><button type="button">Reload 5.56 (30)</button></td>
-      <td><button type="button">Reload 5.56 (100)</button></td>
-    </tr>
-    <tr>
-      <td><button type="button">Fire</button></td>
-      <td><button type="button">Reload 7.62 (20)</button></td>
-      <td><button type="button">Reload 7.62 (30)</button></td>
-      <td><button type="button">Reload 7.62 (230)</button></td>
-    </tr>
-    <tr>
-      <td><button type="button">Fire</button></td>
-      <td><button type="button">Reload 9mm (5)</button></td>
-      <td><button type="button">Reload 9mm (12)</button></td>
-      <td><button type="button">Reload 9mm (52)</button></td>
-    </tr>
+      <tr>
+        <th>Fire</th>
+        <th>Reload Low Capacity Mag</th>
+        <th>Reload Standard Mag</th>
+        <th>Reload High Capacity Mag
+      </tr>
+      <tr>
+        <td><button type="button">Fire</button></td>
+        <td><button type="button">Reload 5.56 (10)</button></td>
+        <td><button type="button">Reload 5.56 (30)</button></td>
+        <td><button type="button">Reload 5.56 (100)</button></td>
+      </tr>
+      <tr>
+          <td><button type="button">Fire</button></td>
+          <td><button type="button">Reload 7.62 (20)</button></td>
+          <td><button type="button">Reload 7.62 (30)</button></td>
+          <td><button type="button">Reload 7.62 (230)</button></td>
+      </tr>
+      <tr>
+          <td><button type="button">Fire</button></td>
+          <td><button type="button">Reload 9mm (5)</button></td>
+          <td><button type="button">Reload 9mm (12)</button></td>
+          <td><button type="button">Reload 9mm (52)</button></td>
+      </tr>
+     </table>
+</div>
+    <div>
+      <table> 
+        <tr>
+          <th>Round</th>
+          <th>User</th>
+          <th>Remaining</th>
+        </tr>
+        <tr>Coming Soon</tr>
+        <tr>Coming Soon</tr>
+        <tr>Coming Soon</tr>
+      </table>
+    </div>
   </table>

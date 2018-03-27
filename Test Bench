@@ -2,18 +2,10 @@
 <html>
 <title>The Test Bench</title>
 <header>
-<style>
-h1 {
-  text-align: center;
-  background-color: red;
-  font-size: 30px;
-  border-radius: 30%;
-  border-width: 20px 5px 20px 5px;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
 </style>
 <script>
 document.write(Date());

@@ -9,7 +9,7 @@
   <script src="JS-Programming"></script>
   <script type="text/javascript"></script>
   <script>
-  $(document).ready(fire () {
+  $(document).ready(function () {
     $("#556_fire").on('click', fire);
   });
   </script>

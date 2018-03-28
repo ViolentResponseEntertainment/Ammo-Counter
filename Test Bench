@@ -8,9 +8,11 @@
   crossorigin="anonymous"></script>
   <script src="JS-Programming"></script>
   <script type="text/javascript"></script>
-  $(document).ready(function() {
-    $(#556_fire).on('click', fire);
+  <script>
+  $(document).ready(fire () {
+    $("#556_fire").on('click', fire);
   });
+  </script>
 </header>
 <head>
 <h1>Test Bench</h1>

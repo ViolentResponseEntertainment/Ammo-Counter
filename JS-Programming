@@ -1,54 +1,56 @@
+ammoCount = 0;
+
 // This should drop the ammo count till it hits zero
 function fire {
-let ammoCount = 30;
+  ammoCount = 30;
 for (i = 30; ammoCount > 0 && ammoCount < 31; i--) {
   console.log(ammoCount)
 }
 }
 // These next 3 functions will be used for a reload button for 5.56 round
 function resetCount556 {
-  let ammoCount = 30;
+    ammoCount = 30;
   const round = '5.56/.223';
 }
 
 function resetMiniMag556 {
-  let ammoCount = 10;
+    ammoCount = 10;
   const round = '5.56/.223';
 }
 
 function resetBigBoy556 {
-  let ammoCount = 100;
+    ammoCount = 100;
   const round = '5.56/.223';
 }
 
 // These next 3 functions should be almost the same as the last few but for 7.62 rounds
 function resetCount762 {
-  let ammoCount = 30;
+    ammoCount = 30;
   const round = '7.62';
 }
 
 function resetMiniMag762 {
-  let ammoCount = 20;
+    ammoCount = 20;
   const round = '7.62';
 }
 
 function resetBigBoy762 {
-  let ammoCount = 230;
+   ammoCount = 230;
   const round = '7.62';
 }
 
 // 9mm
 function resetCountNine {
-  let ammoCount = 30;
+    ammoCount = 30;
   const round = '9mm';
 }
 
 function resetMiniMagNine {
-  let ammoCount = 10;
+   ammoCount = 10;
   const round = '9mm';
 }
 
 function resetBigBoyNine {
-  let ammoCount = 50;
+   ammoCount = 50;
   const round = '9mm';
 }

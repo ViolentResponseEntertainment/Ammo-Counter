@@ -11,16 +11,19 @@ for (i = 30; ammoCount > 0 && ammoCount < 31; i--) {
 function resetCount556() {
     ammoCount = 30;
   const round = '5.56/.223';
+  console.log(ammoCount);
 }
 
 function resetMiniMag556() {
     ammoCount = 10;
   const round = '5.56/.223';
+  console.log(ammoCount)
 }
 
 function resetBigBoy556() {
     ammoCount = 100;
   const round = '5.56/.223';
+  console.log(ammoCount)
 }
 
 // These next 3 functions should be almost the same as the last few but for 7.62 rounds

@@ -2,15 +2,16 @@ var ammoCount = 0;
 
 var currentRound = "None";
 
+// This is the function to check and show the Current Loaded round in the Mag
 function roundCheck() {
  if (currentRound === "7.62") {
-  document.getElementById("round").innerHTML = "Ammo Type: 7.62";
+  document.getElementById("round").innerHTML ="7.62";
   console.log("currentRound");
  } else if (currentRound === "5.56") {
-  document.getElementById("round").innerHTML = "Ammo Type: 5.56";
+  document.getElementById("round").innerHTML = "5.56";
   console.log(currentRound);
  } else if (currentRound === "9mm") {
-  document.getElementById("round").innerHTML = "Ammo Type : 9mm";
+  document.getElementById("round").innerHTML = "9mm";
   console.log(currentRound);
  } else {
   console.log("Unknown Round Chambered");
@@ -19,10 +20,8 @@ function roundCheck() {
 
 // This should drop the ammo count till it hits zero
 function fire() {
-  ammoCount = 30;
-for (i = 30; ammoCount > 0 && ammoCount < 31; i--) {
-  console.log(ammoCount)
-}
+  ammoCount = ammoCount - 1;
+  console.log(ammoCount);
 }
 // These next 3 functions will be used for a reload button for 5.56 round
 function resetCount556() {
@@ -43,37 +42,49 @@ function resetBigBoy556() {
     ammoCount = 100;
     currentRound = "5.56";
     roundCheck();
-  console.log(ammoCount)
+    console.log(ammoCount);
 }
 
 // These next 3 functions should be almost the same as the last few but for 7.62 rounds
 function resetCount762() {
     ammoCount = 30;
-  const round = '7.62';
+    currentRound = "7.62";
+    roundCheck();
+    console.log(ammoCount);
 }
 
 function resetMiniMag762() {
     ammoCount = 20;
-  const round = '7.62';
+    currentRound = "7.62";
+    roundCheck();
+    console.log(ammoCount);
 }
 
 function resetBigBoy762() {
    ammoCount = 230;
-  const round = '7.62';
+   currentRound = "7.62";
+   roundCheck();
+   console.log(ammoCount);
 }
 
 // 9mm
 function resetCountNine() {
     ammoCount = 30;
-  const round = '9mm';
+    currentRound = "9mm";
+    roundCheck();
+    console.log(ammoCount);
 }
 
 function resetMiniMagNine() {
    ammoCount = 10;
-  const round = '9mm';
+   currentRound = "9mm";
+   roundCheck();
+   console.log(ammoCount);
 }
 
 function resetBigBoyNine() {
    ammoCount = 50;
-  const round = '9mm';
+   currentRound = "9mm";
+   roundCheck();
+   console.log(ammoCount);
 }

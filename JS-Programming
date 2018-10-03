@@ -1,4 +1,21 @@
-ammoCount = 0;
+var ammoCount = 0;
+
+var currentRound = "None";
+
+function roundCheck() {
+ if (currentRound === "7.62") {
+  document.getElementById("round").innerHTML = "Ammo Type: 7.62";
+  console.log("currentRound");
+ } else if (currentRound === "5.56") {
+  document.getElementById("round").innerHTML = "Ammo Type: 5.56";
+  console.log(currentRound);
+ } else if (currentRound === "9mm") {
+  document.getElementById("round").innerHTML = "Ammo Type : 9mm";
+  console.log(currentRound);
+ } else {
+  console.log("Unknown Round Chambered");
+ }
+};
 
 // This should drop the ammo count till it hits zero
 function fire() {
@@ -10,19 +27,22 @@ for (i = 30; ammoCount > 0 && ammoCount < 31; i--) {
 // These next 3 functions will be used for a reload button for 5.56 round
 function resetCount556() {
     ammoCount = 30;
-  const round = '5.56/.223';
+  currentRound = "5.56";
+  roundCheck();
   console.log(ammoCount);
 }
 
 function resetMiniMag556() {
     ammoCount = 10;
-  const round = '5.56/.223';
+    currentRound = "5.56";
+    roundCheck();
   console.log(ammoCount)
 }
 
 function resetBigBoy556() {
     ammoCount = 100;
-  const round = '5.56/.223';
+    currentRound = "5.56";
+    roundCheck();
   console.log(ammoCount)
 }
 

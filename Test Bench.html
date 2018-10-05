@@ -2,17 +2,8 @@
 <html>
 <title>The Test Bench</title>
 <header>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
   <script src="JS-Programming"></script>
   <script type="text/javascript"></script>
-  <script>
-  $(document).ready(function () {
-    $("#556_fire").on('click', fire);
-  });
-  </script>
 </header>
 <head>
 <h1>Test Bench</h1>
@@ -25,22 +16,22 @@
         <th>Reload High Capacity Mag
       </tr>
       <tr>
-        <td><button type="button" id="556_fire">Fire</button></td>
+        <td><button type="button" onclick="fire556()" id="556_fire">Fire 5.56</button></td>
         <td><button type="button" onclick="resetMiniMag556()" id="small556">Reload 5.56 (10)</button></td>
         <td><button type="button" onclick="resetCount556()" id="avrage556">Reload 5.56 (30)</button></td>
         <td><button type="button" onclick="resetBigBoy556()" id="large556">Reload 5.56 (100)</button></td>
       </tr>
       <tr>
-          <td><button type="button" id="762_fire">Fire</button></td>
+          <td><button type="button" onclick="fire762()" id="762_fire">Fire 7.62</button></td>
           <td><button type="button" onclick="resetMiniMag762()" id="small762">Reload 7.62 (20)</button></td>
           <td><button type="button" onclick="resetCount762()" id="avrage762">Reload 7.62 (30)</button></td>
           <td><button type="button" onclick="resetBigBoy762()" id="large762">Reload 7.62 (230)</button></td>
       </tr>
       <tr>
-          <td><button type="button" id="9mm_fire">Fire</button></td>
-          <td><button type="button" id="small9mm">Reload 9mm (5)</button></td>
-          <td><button type="button" id="avrage9mm">Reload 9mm (12)</button></td>
-          <td><button type="button" id="large9mm">Reload 9mm (52)</button></td>
+          <td><button type="button" onclick="fire9mm()" id="9mm_fire">Fire 9mm</button></td>
+          <td><button type="button" onclick="resetCountNine()" id="small9mm">Reload 9mm (5)</button></td>
+          <td><button type="button" onclick="resetMiniMagNine()" id="avrage9mm">Reload 9mm (10)</button></td>
+          <td><button type="button" onclick="resetBigBoyNine()" id="large9mm">Reload 9mm (50)</button></td>
       </tr>
      </table>
 </div>
@@ -49,13 +40,13 @@
       <table style="width: 100%; text-align: center">
         <tr>
           <th>Round</th>
-          <th id="user">User</th>
+          <th>User</th>
           <th>Remaining</th>
         </tr>
         <tr>
         <td id="round">Not Loaded</td>
         <td id="user">Coming Soon</td>
-        <td id="remainingAmmo">Coming Soon</td>
+        <td id="remainingAmmo">Not Loaded</td>
       </tr>
       </table>
     </div>

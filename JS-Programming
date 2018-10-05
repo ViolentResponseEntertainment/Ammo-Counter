@@ -2,6 +2,19 @@ var ammoCount = 0;
 
 var currentRound = "None";
 
+function ammoCheck() {
+  document.getElementById("remainingAmmo").innerHTML = ammoCount;
+};
+
+function magCheck() {
+  if (ammoCount >= 1) {
+    ammoCount = ammoCount - 1;
+  } else {
+    window.alert("OUT OF AMMO");
+    console.log("OUT OF AMMO");
+  }
+};
+
 // This is the function to check and show the Current Loaded round in the Mag
 function roundCheck() {
  if (currentRound === "7.62") {
@@ -19,72 +32,109 @@ function roundCheck() {
 };
 
 // This should drop the ammo count till it hits zero
-function fire() {
-  ammoCount = ammoCount - 1;
-  console.log(ammoCount);
-}
+function fire556() {
+  if (currentRound === "5.56") {
+    magCheck();
+    ammoCheck();
+    console.log(ammoCount);
+  } else {
+    console.log("Not the correct round");
+  }
+};
+
 // These next 3 functions will be used for a reload button for 5.56 round
 function resetCount556() {
-    ammoCount = 30;
+  ammoCount = 30;
   currentRound = "5.56";
+  ammoCheck();
   roundCheck();
   console.log(ammoCount);
-}
+};
 
 function resetMiniMag556() {
     ammoCount = 10;
     currentRound = "5.56";
+    ammoCheck();
     roundCheck();
   console.log(ammoCount)
-}
+};
 
 function resetBigBoy556() {
     ammoCount = 100;
     currentRound = "5.56";
+    ammoCheck();
     roundCheck();
     console.log(ammoCount);
-}
+};
+
+//This is the function to fire the 7.62 rounds
+function fire762() {
+  if (currentRound === "7.62") {
+    magCheck();
+    ammoCheck();
+    console.log(ammoCount);
+  } else {
+    console.log("NOT THE CORRECT ROUND");
+  }
+};
 
 // These next 3 functions should be almost the same as the last few but for 7.62 rounds
 function resetCount762() {
     ammoCount = 30;
     currentRound = "7.62";
+    ammoCheck();
     roundCheck();
     console.log(ammoCount);
-}
+};
 
 function resetMiniMag762() {
     ammoCount = 20;
     currentRound = "7.62";
+    ammoCheck();
     roundCheck();
     console.log(ammoCount);
-}
+};
 
 function resetBigBoy762() {
    ammoCount = 230;
    currentRound = "7.62";
+   ammoCheck();
    roundCheck();
    console.log(ammoCount);
-}
+};
 
 // 9mm
+
+function fire9mm() {
+  if (currentRound === "9mm") {
+    magCheck();
+    ammoCheck();
+    console.log(ammoCount);
+  } else {
+    console.log("NOT THE CORRECT ROUND");
+  }
+}
+
 function resetCountNine() {
-    ammoCount = 30;
+    ammoCount = 5;
     currentRound = "9mm";
+    ammoCheck();
     roundCheck();
     console.log(ammoCount);
-}
+};
 
 function resetMiniMagNine() {
    ammoCount = 10;
    currentRound = "9mm";
+   ammoCheck();
    roundCheck();
    console.log(ammoCount);
-}
+};
 
 function resetBigBoyNine() {
    ammoCount = 50;
    currentRound = "9mm";
+   ammoCheck();
    roundCheck();
    console.log(ammoCount);
-}
+};
